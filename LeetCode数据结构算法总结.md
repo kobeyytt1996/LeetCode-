@@ -71,6 +71,6 @@
 8. 图：
 
       1. 无向图:
-            1. 层序遍历：**题126. 单词接龙 II**（DFS和BFS都是备选。但要求最短，往往选BFS，细节很多，思路看[高赞](https://leetcode-cn.com/problems/word-ladder-ii/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by-3-3/)，不需掌握双向BFS。自己又做了[改进](https://leetcode-cn.com/submissions/detail/263910403/)，即能用index就尽量不用string，优化复杂度）
+            1. 层序遍历：**题126、127. 单词接龙 II**（DFS和BFS都是备选。但要求最短，往往选BFS，细节很多，思路看[高赞](https://leetcode-cn.com/problems/word-ladder-ii/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by-3-3/)，重点在bfs的queue里存路径，就起到了DFS的作用。不需掌握双向BFS。自己又做了[改进](https://leetcode-cn.com/submissions/detail/263910403/)，即能用index就尽量不用string，优化复杂度。双向BFS了解思想即可，永远选较少选择的路走，减少可能岔路）
 
 
