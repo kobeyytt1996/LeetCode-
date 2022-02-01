@@ -23,7 +23,7 @@
 
 3. 字符串
 
-   1. 递归（回溯）：题17 电话号码的字母组合（全排列，就想递归。也可以用队列，虽然时空复杂度没区别，但是个很好的思路）、题93. 复原 IP 地址（过程中为了便于操作，可以用vector存储最后再转为string）、题131. 分割回文串（看[高赞](https://leetcode-cn.com/problems/palindrome-partitioning/solution/hui-su-you-hua-jia-liao-dong-tai-gui-hua-by-liweiw/)，重点在于**提前动态规划记录所有子串是否是回文串**和时间复杂度）
+   1. 递归（回溯）：题17 电话号码的字母组合（全排列，就想递归。也可以用队列，虽然时空复杂度没区别，但是个很好的思路）、题93. 复原 IP 地址（过程中为了便于操作，可以用vector存储最后再转为string）、题131. 分割回文串（看[高赞](https://leetcode-cn.com/problems/palindrome-partitioning/solution/hui-su-you-hua-jia-liao-dong-tai-gui-hua-by-liweiw/)，回溯法先画出树，重点在于**提前动态规划记录所有子串是否是回文串**和时间复杂度）
    2. 辅助数据结构：题20. 有效的括号（栈。简单题可以适当想想剪枝，比如字符总数为奇数，则直接false）、**题30. 串联所有单词的子串**（*判断是否出现，第一反应就是Map，以单词为单位，复杂题可适当用库函数，还要牢牢记清题目条件）
 
    3. 遍历：
