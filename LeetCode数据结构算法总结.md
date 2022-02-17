@@ -74,7 +74,7 @@
    4. 遍历：
       1. 题59. 螺旋矩阵 II（还是按照上下左右四个边界进行迭代）、题118、119. 杨辉三角 （118：写法兼顾效率简洁，知道vector的最终大小可以提前resize，避免动态成长。**119：**用公式时要想到避免重复计算，即能得到横向递推）、168. Excel表列名称（十进制转二十六进制。但易错，不是0到26，而是1到26）、题172. 阶乘后的零（分析时间复杂度为对数）
    5. 辅助数据结构：题166. 分数到小数（先想清楚正常情况怎么算。注意细节：负数，大数等。记录余数和其下标，因为无限循环可能只是一部分小数）
-   5. 位运算：题190. 颠倒二进制位（普通遍历可做。[官解](https://leetcode-cn.com/problems/reverse-bits/solution/dian-dao-er-jin-zhi-wei-by-leetcode-solu-yhxz/)提供了分治法，复杂度为O(log32),利用了位运算做位移很方便的特性）
+   5. 位运算：题190. 颠倒二进制位（普通遍历可做。[官解](https://leetcode-cn.com/problems/reverse-bits/solution/dian-dao-er-jin-zhi-wei-by-leetcode-solu-yhxz/)提供了分治法，复杂度为O(log32),利用了位运算做位移很方便的特性）、题201. 数字范围按位与（关键是把题目转换为求最长公共前缀。其次是追求简洁，看[官解](https://leetcode-cn.com/problems/bitwise-and-of-numbers-range/solution/shu-zi-fan-wei-an-wei-yu-by-leetcode-solution/)）
    
 8. 图：
 
